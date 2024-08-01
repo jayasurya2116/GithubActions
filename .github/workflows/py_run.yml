@@ -2,7 +2,7 @@ name: python scrupt run
 on: [push]
 jobs:
   build:
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.8, 3.9]
