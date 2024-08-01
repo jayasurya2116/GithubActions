@@ -1,0 +1,8 @@
+name: Sample_run
+on: push
+jobs:
+  first_run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "my name is surya"
