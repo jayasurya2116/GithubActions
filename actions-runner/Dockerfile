@@ -3,6 +3,8 @@ FROM ubuntu:20.04
 
 # Set environment variables
 ENV RUNNER_VERSION=2.319.0
+ENV DEBIAN_FRONTEND=noninteractive
+ENV TZ=Etc/UTC
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
